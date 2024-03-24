@@ -9,10 +9,8 @@ public class Exercicio05{
          for (int i = 0; i < 5; i++) {
              vetor[i] = leitor.nextInt();
          }
-
-         System.out.print("Digite um numero n: ");
+        
          int n = leitor.nextInt();
- 
          int cont = 0;
          for (int i = 0; i < 5; i++) {
              if (vetor[i] == n) {
