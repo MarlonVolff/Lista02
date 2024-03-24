@@ -9,6 +9,7 @@ public class Exercicio01 {
         for (int i = 0; i < 5; i++) {
             num[i] = leitor.nextDouble();
         }
+        
         double soma = 0;
         for (double numero : num) {
             soma += numero;
