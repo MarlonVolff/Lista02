@@ -8,7 +8,6 @@ public class Exercicio03{
         int tam = leitor.nextInt();
 
         double[] vetor = new double[tam];
-
         System.out.println("Informe os números do vetor:");
             for (int i = 0; i < tam; i++) {
                 System.out.print("Posiçao " + i + ": ");
