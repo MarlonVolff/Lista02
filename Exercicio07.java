@@ -24,14 +24,11 @@ public class Exercicio07{
                 break;
             }
         }
-
         if (iguais) {
             System.out.println("Os vetores são iguais.");
         } else {
             System.out.println("Os vetores são diferentes.");
         }
-
-
         leitor.close();
     }
 }
