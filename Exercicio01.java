@@ -5,12 +5,10 @@ public class Exercicio01 {
         Scanner  leitor = new Scanner(System.in);
 
         double[] num = new double[5];
-
         System.out.println("Digite 5 números:");
         for (int i = 0; i < 5; i++) {
             num[i] = leitor.nextDouble();
         }
-
         double soma = 0;
         for (double numero : num) {
             soma += numero;
@@ -22,21 +20,18 @@ public class Exercicio01 {
                 System.out.println(numero);
             }
         }
-
         System.out.println("Valores iguais a media:");
         for (int numero : num) {
             if (numero == media) {
                 System.out.println(numero);
             }
         }
-
         System.out.println("Valores superiores a media:");
         for (int numero : num) {
             if (numero > media) {
                 System.out.println(numero);
             }
         }
-
         leitor.close();
     }
 }
