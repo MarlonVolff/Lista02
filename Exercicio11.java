@@ -23,8 +23,6 @@ public class Exercicio11{
         }
 
         System.out.println("Produto escalar: " + produto);
-
-
         leitor.close();
     }
 }
