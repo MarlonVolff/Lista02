@@ -4,24 +4,20 @@ public class Exercicio02{
     public static void executar(){
         Scanner leitor = new Scanner(System.in);
 
-        int[] sequencia = new int[5];
-
-        for (int i = 0; i < sequencia.length; i++) {
+        int[] sq = new int[5];
+        for (int i = 0; i < sq.length; i++) {
             System.out.print("Digite um número para a posição " + i + ": ");
-            sequencia[i] = leitor.nextInt();
+            sq[i] = leitor.nextInt();
         }
-
-        for (int i = 0; i < sequencia.length; i++) {
-            if (sequencia[i] > 0) {
-                System.out.println("Numero " + sequencia[i] + " na posição " + i + " é positivo.");
+        for (int i = 0; i < sq.length; i++) {
+            if (seq[i] > 0) {
+                System.out.println("Número " + sq[i] + " na posição " + i + " é positivo.");
             } else if (sequencia[i] < 0) {
-                System.out.println("Numero " + sequencia[i] + " na posição " + i + " é negativo.");
+                System.out.println("Número " + sq[i] + " na posição " + i + " é negativo.");
             } else {
-                System.out.println("Numero " + sequencia[i] + " na posicão " + i + " é zero.");
+                System.out.println("Número " + sq[i] + " na posicão " + i + " é zero.");
             }
         }
-
-
         leitor.close();
     }
 }
