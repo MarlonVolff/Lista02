@@ -29,7 +29,6 @@ public class Exercicio08{
         for (int i = 0; i < 10; i++) {
             System.out.print(vetorC[i] + " ");
         }
-
         leitor.close();
     }
 }
