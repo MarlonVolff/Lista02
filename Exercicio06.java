@@ -4,21 +4,22 @@ public class Exercicio06{
     public static void executar(){
         Scanner leitor = new Scanner(System.in);
 
-        double[] notas = new double[5];
-        int[] pesos = new int[5];
+        double[] n = new double[5];
+        int[] p = new int[5];
         double somaP = 0, somaNeP = 0;
 
         for (int i = 0; i < 5; i++) {
             System.out.print("Digite a nota " + (i + 1) + ": ");
-            notas[i] = leitor.nextDouble();
+            n[i] = leitor.nextDouble();
+            
             System.out.print("Digite o peso da nota " + (i + 1) + ": ");
-            pesos[i] = leitor.nextInt();
-            somaNeP += notas[i] * pesos[i];
-            somaP += pesos[i];
+            p[i] = leitor.nextInt();
+            somaNeP += n[i] * p[i];
+            somaP += p[i];
         }
 
-        double mediaPonderada = somaNeP/ somaP;
-        System.out.printf("Média ponderada: %.2f\n", mediaPonderada);
+        double mediaP = somaNeP/ somaP;
+        System.out.printf("Média ponderada: %.2f\n", mediaP);
 
         
         leitor.close();
