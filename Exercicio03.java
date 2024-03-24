@@ -16,11 +16,11 @@ public class Exercicio03{
 
         for (int i = 0; i < tam; i++) {
         if (vetor[i] > 0) {
-            System.out.println("Numero na posiçao " + i + " é positivo.");
+            System.out.println("Número na posiçao " + i + " é positivo.");
         } else if (vetor[i] < 0) {
-            System.out.println("Numero na posição " + i + " é negativo.");
+            System.out.println("Número na posição " + i + " é negativo.");
         } else {
-            System.out.println("Numero na posição " + i + " é zero.");
+            System.out.println("Número na posição " + i + " é zero.");
         }
     }
 
