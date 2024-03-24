@@ -19,7 +19,6 @@ public class Exercicio04{
                  System.out.println("Indice: " + i);
              }
          }
-
         leitor.close();
     }
 }
